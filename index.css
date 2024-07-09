@@ -1,0 +1,209 @@
+
+.azeret-mono-normal{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* navigation style */
+ul{
+    display: flex;
+}
+.nav-title{
+    font-weight:bolder ;
+    font-size: 28px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px ;
+}
+
+nav ul li{
+    list-style: none;
+    align-items: center;
+}
+
+nav ul a{
+    text-decoration:none ;
+}
+.dark{
+    color: #0D1321;
+}
+
+/* shared style */
+.btn{
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+    padding:17px 24px ;
+    font-family: "Azeret Mono", monospace;
+    background-color: white;
+}
+
+.purpore-heading{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(13, 19, 33, 70%);
+    width: 390px ;
+}
+
+.desciption{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 70%;
+    width:468px ;
+}
+
+.content{
+    padding:15px 20px;
+    margin-bottom: 10.5px;
+    width: 477px;
+}
+
+
+/* banner styles */
+
+#banner{
+    background-image: url(assets/Hero-bg.png);
+    /* width: 1440px; */
+    height: 652px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content{
+    width: 998px;
+    padding: 26px 0 45px 0;
+}
+.banner-highlight{
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+.group{
+    width: 240.28px;
+    height: 240px;
+    margin: 0 auto;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 852px;
+    opacity: 70%;
+    text-align: center;
+}
+.btn-primary{
+    background-color:#0D1321 ;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 24px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 32px;
+    margin-left: 377px;
+}
+
+/* main styles */
+
+#one{
+    background-color: rgba(13, 19, 33, 2%);
+    width: 1140px;
+    margin: 74px auto;
+    border-radius: 16px;
+    border: solid black; 
+}
+.dev-purpose{
+    padding: 80px 97px;
+}
+.heading {
+    margin: 0 auto;
+    text-align: center;
+}
+.lorem-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    margin-top: 24px;
+    width: 852px;
+    opacity: 70%;
+    text-align: center;
+}
+.question{
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.first-ps{
+    width: 850px;
+    display: flex;
+    align-items: center;
+    background-color: #d1b3b3;
+    border-radius:16px ;
+    margin: 0 auto;
+}
+.second-ps{
+    width: 850px;
+    display: flex;
+    align-items: center;
+    background-color: #d0d0d0;
+    border-radius:16px ;
+    margin: 48px auto;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.third-ps{
+    width: 850px;
+    display: flex;
+    align-items: center;
+    background-color: #656565;
+    border-radius:16px ;
+    margin: 32px auto;
+    justify-content: space-between;
+}
+
+.layer-one{
+    width: 274.17px ;
+    padding: 48px 48px;
+}
+.layer{
+    width: 240px;
+    padding: 48px 48px;
+}
+
+/* main two styles */
+
+#two{
+    width: 1140px;
+    margin: 90px auto;
+}
+.Inspiration-title{
+    text-align: center;
+    width: 852px;
+    margin: 0 auto;
+    font-size: 32px;
+    font-weight: bolder;
+}
+.inspiration-description{
+    padding: 24px 144px;
+}
+
+.yt-link{
+    border: solid rgba(13, 19, 33, 20%);
+    border-radius: 16px;
+    width: 1140px;
+    height: 614px;
+    margin-top: 48px;
+}
+.main-video{
+    border-radius: 16px;
+    padding: 32px 32px;
+}
