@@ -98,6 +98,7 @@ a{
 .banner-content{
     width: 998px;
     padding: 26px 0 45px 0;
+    align-items: center;
 }
 .banner-highlight{
     font-weight: bolder;
@@ -128,7 +129,7 @@ a{
     border-radius: 8px;
     border: none;
     margin-top: 32px;
-    margin-left: 377px;
+    margin-left: 400px;
 }
 
 /* main why web dev? styles */
