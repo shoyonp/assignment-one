@@ -44,7 +44,7 @@ nav ul a{
     background-color: white;
 }
 
-.purpore-heading{
+.purpose-heading{
     font-size: 24px;
     font-weight: bold;
     color: rgba(13, 19, 33, 70%);
@@ -63,7 +63,20 @@ nav ul a{
     margin-bottom: 10.5px;
     width: 477px;
 }
+.text-center{
+    text-align: center;
+}
 
+a{
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.skill.title{
+    font-weight: bolder;
+    font-size: 24px;
+}
 
 /* banner styles */
 
@@ -179,7 +192,7 @@ nav ul a{
     padding: 48px 48px;
 }
 
-/* main two styles */
+/* my inspiration styles */
 
 #two{
     width: 1140px;
@@ -191,6 +204,7 @@ nav ul a{
     margin: 0 auto;
     font-size: 32px;
     font-weight: bolder;
+    padding-bottom: 24px;
 }
 .inspiration-description{
     padding: 24px 144px;
@@ -206,4 +220,90 @@ nav ul a{
 .main-video{
     border-radius: 16px;
     padding: 32px 32px;
+}
+
+/*current skills section */
+.skills{
+    width: 1140px;
+    margin: 151px auto;
+}
+.skills-container{
+    display: flex;
+    gap: 24px; ;
+}
+.bgc-html{
+    background-color: rgba(255, 76, 30, 5%);
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+}
+.bgc-css{
+    background-color: rgba(0, 76, 232, 5%);
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+}
+.bgc-js{
+    background-color: rgba(255, 223, 0, 5%);
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+}
+.skill{
+    padding: 40px 40px;
+}
+
+.section-title{
+    font-size: 32px;
+    font-weight: bolder;
+}
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 70%;
+    width:852px ;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+/* next skill section */
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.next-skills{
+    width: 1140px;
+    height: 866px;
+    margin:111px auto;
+}
+.next-skill-react{
+    width: 1140px;
+    border: solid rgba(13, 19, 33, 15%);
+    border-radius: 16px;
+    margin-top: 48px;
+}
+.next-skill-node{
+    width: 1140px;
+    border: solid rgba(13, 19, 33, 15%);
+    border-radius: 16px;
+    margin-top: 24px;
+}
+.next-skill-mongo{
+    width: 1140px;
+    border: solid rgba(13, 19, 33, 15%);
+    border-radius: 16px;
+    margin-top: 24px;
+}
+.next-skill-container{
+    padding:40px ;
+    width: 1060px;
+    height:139px;
+    align-items: center;
+    text-align: center
+}
+
+/* footer styles */
+.support{
+    background-image: url(assets/handshake.jpg);
+    width: 1140px;
+    height: 313px;
 }
