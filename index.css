@@ -114,6 +114,8 @@ a{
     width: 852px;
     opacity: 70%;
     text-align: center;
+    padding-top: 24px;
+
 }
 .btn-primary{
     background-color:#0D1321 ;
@@ -268,6 +270,7 @@ a{
     width:852px ;
     margin: 0 auto;
     margin-bottom: 48px;
+    padding-top: 24px;
 }
 /* next skill section */
 .flex{
