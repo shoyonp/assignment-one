@@ -60,6 +60,8 @@ nav ul a{
     font-weight: 400;
     opacity: 70%;
     width:468px ;
+    padding-top: 16px ;
+    padding-bottom: 32px ;
 }
 
 .content{
@@ -129,7 +131,7 @@ a{
     margin-left: 377px;
 }
 
-/* main styles */
+/* main why web dev? styles */
 
 #one{
     background-color: rgba(13, 19, 33, 2%);
@@ -197,6 +199,8 @@ a{
     width: 240px;
     padding: 48px 48px;
 }
+
+
 
 /* my inspiration styles */
 
@@ -272,7 +276,19 @@ a{
     margin-bottom: 48px;
     padding-top: 24px;
 }
+.skill-description{
+    padding-top:8px ;
+    padding-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400px;
+    opacity: 70%;
+}
+.a-padding{
+    padding-bottom: 24px;
+}
+
 /* next skill section */
+
 .flex{
     display: flex;
     justify-content: space-between;
@@ -312,6 +328,7 @@ a{
     font-size: 16px;
     font-weight: 400;
     opacity: 70%;
+    padding: 8px 0;
 }
 
 /* footer styles */
@@ -346,6 +363,7 @@ a{
     color: white;
     opacity: 70%;
     margin: 0 auto;
+    padding-top: 16px ;
 }
 .feedback{
     width: 684px;
@@ -374,6 +392,7 @@ a{
     /* font-family:"Azeret Mono", monospace; */
 }
 /* bottom styles */
+
 .bottom-bg{
     background-color: rgba(13, 19, 33, 3%);
     /* width: 1440px; */
